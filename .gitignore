@@ -1,7 +1,7 @@
-roundControl\roundControl.Droid\bin\Debug
-roundControl\roundControl.Droid\obj\Debug
-roundControl\roundControl.iOS\bin\iPhoneSimulator\Debug
-roundControl\roundControl.iOS\obj\iPhoneSimulator\Debug
-roundControl\roundControl.iOS\obj\iPhone\Debug
-roundControl\roundControl.iOS\bin\iPhone\Debug
+roundControl/roundControl.Droid/bin/Debug/
+roundControl/roundControl.Droid/obj/Debug/
+roundControl/roundControl.iOS/bin/iPhoneSimulator/Debug/
+roundControl/roundControl.iOS/obj/iPhoneSimulator/Debug/
+roundControl/roundControl.iOS/obj/iPhone/Debug/
+roundControl/roundControl.iOS/bin/iPhone/Debug/
 

@@ -1,0 +1,63 @@
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\roundControl.pdb
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll
+c:\users\041500784\documents\visual studio 2015\Projects\roundControl\roundControl\roundControl\obj\Debug\roundControl.pdb
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.pdb
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.dll
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Platform.dll
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.dll
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.xml
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.xml
+M:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll
+M:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.pdb
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.pdb
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.dll
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Platform.dll
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.xml
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll
+F:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.pdb
+C:\Users\041500784\Documents\Visual Studio 2015\Projects\roundControl\roundControl\roundControl\obj\Debug\roundControl.csprojResolveAssemblyReference.cache
+C:\Users\041500784\Documents\Visual Studio 2015\Projects\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+C:\Users\041500784\Documents\Visual Studio 2015\Projects\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+M:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.Page1.xaml.g.cs
+M:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.csprojResolveAssemblyReference.cache
+F:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.Page1.xaml.g.cs
+F:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.csprojResolveAssemblyReference.cache
+F:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+F:\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+M:\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+M:\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.pdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.dll
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Platform.dll
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Core.xml
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.csprojResolveAssemblyReference.cache
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.Page1.xaml.g.cs
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.pdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+E:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+L:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+L:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb
+L:\software dev\xamarin\roundControl\roundControl\roundControl\obj\Debug\roundControl.dll.mdb
+L:\software dev\xamarin\roundControl\roundControl\roundControl\bin\Debug\roundControl.dll.mdb

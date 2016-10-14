@@ -14,6 +14,7 @@ namespace SelectableControls
     {
         // the data binding event change handler
         public event PropertyChangedEventHandler PropertyChanged;
+
         // the list of buttons in the group
         private ObservableCollection<SelectImageButton> group;
 
@@ -23,6 +24,7 @@ namespace SelectableControls
             get { return group; }
             set { group = value; }
         }
+
         // the selected index's private variable
         private int selectedIndex = 0;
 
@@ -52,31 +54,8 @@ namespace SelectableControls
                     Debug.WriteLine("you dont belong here");
                 }            
             }
-            /**/
         }
-        // function to chnage selecet item
-        /*
-        static void SelectedChanged(BindableObject bindable, object oldValue, object newValue)
-        {
-            // get then new button
-            var newButton = (SelectImageButton)newValue;
-            // set the requested buttton to be selected then deselect the rest
-            if (group.Contains(newButton))
-            {
-                ((SelectButtonGroup)bindable).selectedIndex = group.IndexOf(newButton);
-                newButton.selected = true;
-                foreach (SelectImageButton checkForSelected in group)
-                {
-                    // the button wont let itself be set to false if the group has it as selected
-                    checkForSelected.selected = false;
-                }
-            }
-            else
-            {
-                Debug.WriteLine("you dont belong here");
-            }
-        }
-        */
+  
         // another interface that is a function
         public void SetSelected(SelectImageButton selectMe)
         {
@@ -93,7 +72,8 @@ namespace SelectableControls
             get { return selectedIndex; }
             set
             {
-                if(value >= 0 && value < group.Count)
+                // check that given number is a valid index then set the button of that index to be selected and selectedIdex to the given value, finaly run the binding update
+                if (value >= 0 && value < group.Count)
                 {
                     Selected = group[value];
                     selectedIndex = value;
@@ -101,8 +81,7 @@ namespace SelectableControls
                 }
             }
         }
-        // bindable change index function
-        // bindalbe change button function
+        
 
         public SelectButtonGroup()
         {
@@ -125,7 +104,7 @@ namespace SelectableControls
                 group.Add(addedButton);
             }
         }
-        // removing a button from the group
+        // removing a button from the group, by checking its in the group 1st, then removing it and setting the buttons itself to have no group
         public void removeButton(SelectImageButton addedButton)
         {
             if (group.Contains(addedButton))

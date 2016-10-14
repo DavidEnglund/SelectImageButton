@@ -117,6 +117,14 @@ namespace SelectableControls
                 addedButton.buttonGroup = this;
             }
         }
+        // a second init for adding an array of buttons
+        public SelectButtonGroup(SelectImageButton[] buttonArray)
+        {
+            foreach(SelectImageButton addedButton in buttonArray)
+            {
+                group.Add(addedButton);
+            }
+        }
         // removing a button from the group
         public void removeButton(SelectImageButton addedButton)
         {

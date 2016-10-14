@@ -150,20 +150,20 @@ namespace SelectableControls
                 {
                     if(!value)
                     {
-                        if (_buttonGroup.selected != this)
+                        if (_buttonGroup.Selected != this)
                         {
                             setAsUnselected();
                         }// no else - if the group wants me selected I stay selected
                     }
                     else
                     {
-                        if(_buttonGroup.selected == this)
+                        if(_buttonGroup.Selected == this)
                         {
                             setAsSelected();
                         }else
                         {
                             // dont need to run set as selected - the group will set itself to me and then tell me to be selected running the true value of this if
-                            _buttonGroup.selected = this;
+                            _buttonGroup.Selected = this;
                         }
                     }
                 }

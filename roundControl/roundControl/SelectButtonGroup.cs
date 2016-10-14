@@ -3,58 +3,110 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
+using Xamarin.Forms;
+using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 namespace SelectableControls
 {    
-    public class SelectButtonGroup
+    public class SelectButtonGroup : INotifyPropertyChanged
     {
+        // the data binding event change handler
+        public event PropertyChangedEventHandler PropertyChanged;
         // the list of buttons in the group
-        private List<SelectImageButton> group;
-        // the selected index's private variable
-        private int _selectedIndex = 0;
-       
-        // the public interface for setting the selected control
-        public SelectImageButton selected
+        private ObservableCollection<SelectImageButton> group;
+
+        // the public interface for the list of button in the group
+        public ObservableCollection<SelectImageButton> Buttons
         {
-            get { return group[_selectedIndex]; }
+            get { return group; }
+            set { group = value; }
+        }
+        // the selected index's private variable
+        private int selectedIndex = 0;
+
+        // the public interface for setting the selected control
+        public SelectImageButton Selected
+        {
+            //get { return (SelectImageButton)GetValue(SelectedProperty); }
+           // set { SetValue(SelectedProperty, value); }
+            
+            get { return group[selectedIndex]; }
             set
             {
                 // set the requested buttton to be selected then deselect the rest
-                _selectedIndex = group.IndexOf(value);
-                value.selected = true;
+                if (group.Contains(value))
+                {
+                    selectedIndex = group.IndexOf(value);
+                    value.selected = true;
+                    foreach (SelectImageButton checkForSelected in group)
+                    {
+                        // the button wont let itself be set to false if the group has it as selected
+                        checkForSelected.selected = false;
+                        // and update for the binding
+                        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Selected"));
+                    }
+                }else
+                {
+                    Debug.WriteLine("you dont belong here");
+                }            
+            }
+            /**/
+        }
+        // function to chnage selecet item
+        /*
+        static void SelectedChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            // get then new button
+            var newButton = (SelectImageButton)newValue;
+            // set the requested buttton to be selected then deselect the rest
+            if (group.Contains(newButton))
+            {
+                ((SelectButtonGroup)bindable).selectedIndex = group.IndexOf(newButton);
+                newButton.selected = true;
                 foreach (SelectImageButton checkForSelected in group)
                 {
                     // the button wont let itself be set to false if the group has it as selected
                     checkForSelected.selected = false;
-                }               
+                }
+            }
+            else
+            {
+                Debug.WriteLine("you dont belong here");
             }
         }
+        */
         // another interface that is a function
-        public void setSelected(SelectImageButton selectMe)
+        public void SetSelected(SelectImageButton selectMe)
         {
-            selected = selectMe;
+        Selected = selectMe;
         }
         // and a function version for the get as well
         public SelectImageButton getSelected()
         {
-            return selected;
+            return Selected;
         }
         // interfaces for the selected index
-        public int selectedIndex
+        public int SelectedIndex
         {
-            get { return _selectedIndex; }
+            get { return selectedIndex; }
             set
             {
-                if(value > 0 && value < group.Count)
+                if(value >= 0 && value < group.Count)
                 {
-                    selected = group[value];
-                    _selectedIndex = value;
+                    Selected = group[value];
+                    selectedIndex = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("SelectedIndex"));
                 }
             }
         }
+        // bindable change index function
+        // bindalbe change button function
+
         public SelectButtonGroup()
         {
-            group = new List<SelectImageButton>();
+            group = new ObservableCollection<SelectImageButton>();
         }
         // adding a button to the group
         public void addButton(SelectImageButton addedButton)

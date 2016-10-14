@@ -27,13 +27,13 @@ namespace roundControl
         private void button_clicked(object sender, EventArgs e)
         {
             SelectImageButton clickedButton = (SelectImageButton)sender;
-            DisplayAlert("buttons index in Group", "index: " + clickedButton.buttonGroup.selectedIndex, "ok");
+            DisplayAlert("buttons index in Group", "index: " + clickedButton.buttonGroup.SelectedIndex, "ok");
             //Navigation.PopModalAsync();
         }
         private void three_clicked(object sender, EventArgs e)
         {
             SelectImageButton clickedButton = (SelectImageButton)sender;
-            DisplayAlert("buttons index in Group", "index: " + clickedButton.buttonGroup.selectedIndex, "ok");
+            DisplayAlert("buttons index in Group", "index: " + clickedButton.buttonGroup.SelectedIndex, "ok");
             Navigation.PopModalAsync();
         }
 

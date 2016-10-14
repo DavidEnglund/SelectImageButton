@@ -71,14 +71,15 @@ namespace roundControl
                             Text = "Welcome to Xamarin Forms!"
                         },
                         new Image {Source = "alex.png" },
-                        showOff,showOff3,unowned,test,lbltest
+                        showOff,showOff2,showOff3,unowned,test,lbltest
                     }
                 }
             };
             MainPage.BackgroundColor = Color.Red;
-            layouttest.Children.Add(showOff2);
-            showOff2.HeightRequest= layouttest.WidthRequest * 0.7;
-            showOff2.WidthRequest = layouttest.WidthRequest * 0.7;
+           // layouttest.Children.Add(showOff2);
+            showOff2.HeightRequest= layouttest.WidthRequest * 0.1;
+            showOff2.WidthRequest = layouttest.WidthRequest * 0.1;
+            greenGroup.Selected = unowned;
         }
 
         private void showoff3_clicked(object sender, EventArgs e)
